@@ -122,5 +122,4 @@ Implementasi sistem IT Helpdesk berbasis GLPI memiliki tujuan:
 ---
 
 # 👨‍💻 Author
-Reynanda Al Ridwan Bintang Firdaus
-Lulu Maudhuna Alfani
+Reynanda Al Ridwan Bintang Firdaus, Lulu Maudhuna Alfani

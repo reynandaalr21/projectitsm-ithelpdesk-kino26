@@ -110,7 +110,7 @@ Menampilkan detail tiket dan komunikasi antara user dan teknisi.
 
 ---
 
-# 🎯 Tujuam Akhir
+# 🎯 Tujuan Akhir
 
 Implementasi sistem IT Helpdesk berbasis GLPI memiliki tujuan:
 

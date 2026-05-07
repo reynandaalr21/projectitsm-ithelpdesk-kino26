@@ -72,7 +72,7 @@
                {% if sublevel['page'] is defined %}
                <a class="dropdown-item {{ menu_active == sublevel['title'] ? 'active' : '' }}"
                   href="{% if sublevel['title'] == 'Tickets' %}
-/glpi/front/ticket.php?is_deleted=0&as_map=0&browse=0&unpublished=1&criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=all&criteria%5B1%5D%5Blink%5D=OR&criteria%5B1%5D%5Bfield%5D=8&criteria%5B1%5D%5Bsearchtype%5D=equals&criteria%5B1%5D%5Bvalue%5D=mygroups&params%5Bhide_criteria%5D=0&params%5Bhide_controls%5D=0&params%5Bshowmassiveactions%5D=1&itemtype=Ticket&start=0
+/front/ticket.php?is_deleted=0&as_map=0&browse=0&unpublished=1&criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=all&criteria%5B1%5D%5Blink%5D=OR&criteria%5B1%5D%5Bfield%5D=8&criteria%5B1%5D%5Bsearchtype%5D=equals&criteria%5B1%5D%5Bvalue%5D=mygroups&params%5Bhide_criteria%5D=0&params%5Bhide_controls%5D=0&params%5Bshowmassiveactions%5D=1&itemtype=Ticket&start=0
 		{% else %}
 		{{ path(sublevel['page']) }}
 		{% endif %}"
